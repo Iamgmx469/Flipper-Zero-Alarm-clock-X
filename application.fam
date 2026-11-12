@@ -1,0 +1,10 @@
+App(
+    appid="alarm_clock",
+    name="Alarm Clock",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="alarm_clock_app",
+    requires=["gui", "notification"],
+    stack_size=2048,
+    fap_version="0.1",
+    fap_category="Tools",
+)
